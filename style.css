@@ -1,0 +1,152 @@
+body {
+	background-color: #FFFFFF;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	align: center;
+}
+
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 42pt;
+	padding-bottom: 0px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+	color: #383446;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20pt;
+	color: #383446;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15pt;
+	margin-bottom: 5px;
+	color: #383446;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 11pt;
+	margin-block-start: 0px;
+	margin-block-end: 10px;
+	color: #383446;
+	line-height: 1.6;
+}
+
+.links {
+	font-family: "Open Sans", sans-serif;
+	font-size: 11pt;
+	margin-block-start: 0px;
+	margin-block-end: 10px;
+    margin: 0px 0px;
+    padding-bottom: 10px;
+	color: #383446;
+	line-height: 1.6;
+}
+
+blockquote {
+  background: #F6F6F6;
+  border-left: 5px solid #383446;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  Padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+	font-size: 15pt;
+	margin-block-start: 0px;
+	margin-block-end: 10px;
+	color: #383446;
+	font-weight: 600;
+	line-height: 1.2;
+    l
+}
+
+.sectionTop {
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sectionBio {
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectionWorks {
+	background-color: #F6F6F6;
+}
+
+.sectionWorksContents {
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectionContact {
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+color: #F57429;
+}
+
+a:visited {
+  text-decoration: none;
+Color: #F57429;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 290px;
+}
+
+/* Middle column */
+.column.spacer {
+  width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+* {
+    overflow: auto;
+}
